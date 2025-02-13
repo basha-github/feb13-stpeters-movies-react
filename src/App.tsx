@@ -1,12 +1,9 @@
-import React from "react";
-import StuResult from "./stu-components/StuResult";
-import ShowMovies from "./stu-components/ShowMovies";
-import TableMovies from "./stu-components/TableMovies";
+import MoviesDataFromURL from "./stu-components/MoviesDataFromURL";
 
 export default function App() {
   return (
     <div>
-      <ShowMovies />
+      <MoviesDataFromURL />
     </div>
   );
 }
